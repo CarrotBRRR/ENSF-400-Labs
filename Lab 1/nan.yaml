@@ -1,0 +1,4 @@
+---
+foo: .inf
+bar: -.Inf
+plop: .NAN

@@ -1,0 +1,5 @@
+bar: >
+  this is not a normal string it
+  spans more than
+  one line
+  see?
