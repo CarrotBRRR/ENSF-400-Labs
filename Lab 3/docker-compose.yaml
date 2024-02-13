@@ -1,0 +1,17 @@
+version: '0.2'
+
+services:
+  hello1:
+    image: hello
+    build: .
+    volumes:
+      - hello1_volume:/tmp
+  hello2:
+    image: hello
+    build: .
+    volumes:
+      - hello2_volume:/tmp
+
+volumes:
+  hello1_volume:
+  hello2_volume:
